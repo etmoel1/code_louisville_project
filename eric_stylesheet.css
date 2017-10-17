@@ -13,6 +13,7 @@ body {
 
 header {
   background-color: #333;
+    
 
 }
 
@@ -98,6 +99,9 @@ a {
 a:hover {
   color: #ddd;
 }
+
+
+
 
 
 /* Photo Grid */
@@ -215,6 +219,10 @@ a:hover {
    padding-bottom: 2em;
    clear: both;
     
+}
+
+.copyright {
+    font-size: 
 }
 
 
