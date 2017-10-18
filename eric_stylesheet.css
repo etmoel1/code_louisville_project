@@ -156,7 +156,6 @@ a:hover {
 .about_text {
     padding-left: 20px;
     clear: left;
-    padding-bottom: em
 }
 
 .eric {
@@ -164,6 +163,18 @@ a:hover {
     width: 400px;
     float: right;
     padding-left: 20px;
+}
+
+
+/* Recipes Section */
+
+.recipes {
+    padding-bottom: 5em;
+    padding-left: 20px;
+}
+
+#recipe_line {
+    margin-bottom: 40px;
 }
 
 

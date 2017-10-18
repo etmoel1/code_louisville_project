@@ -40,5 +40,10 @@ $background.click(function(){
 });
 
 
+$(function(){
+  $('#button').click(function() {
+    alert($('test').val());
+  });
+});
 
 
