@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>Eric Test Project</title>
+<title>Eric Code Louisville Project</title>
 
     
     <head>
         <meta charset="utf-8">
         <title>Eric Moeller | Expert Baker</title>
         <link rel="stylesheet" href="eric_normalize.css">
-        <link rel="stylesheet" href="eric_stylesheet.css">
-        <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="eric_stylesheet.css">
 
     </head>
-
     
     <body>
 
@@ -119,12 +118,31 @@
     
     <hr id="recipe_line" >
     
-    <div class="recipes" " id="recipesline">
-        <h4>Want to be emailed some of Eric's incredible, delicious, and custom recipes on a regular basis? Sign up below!</h4>
+    <div class="recipes" id="recipesline">
+        <h4 class="text-center"><b>Want to be emailed some of Eric's incredible, delicious, and custom recipes on a regular basis? Sign up below!</b></h4><br><br>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
         
-    <div class="col-lg-6 mx-auto">
+        
+<button type="button" class="btn btn-primary col-lg-12" data-toggle="modal" data-target="#signup">
+  Sign Up Now!
+</button>
+ 
+<!--=====================================
+MODAL
+=====================================-->
+
+
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Sign Up For Recipes!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div id="email" class="col-lg-12 mx-auto">
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Enter Your Email to Receive Recipes!" aria-label="Search for...">
             <span class="input-group-btn">
@@ -132,7 +150,11 @@
             </span>
         </div>
     </div>
-
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- About Section --> 
 
@@ -140,7 +162,7 @@
     <div class="about">                
         <img src="img/about_eric.jpg" class="eric" alt="Sandwich">
             <div class="about_text">  
-                <h3><a name="aboutline">About Me, The Food Man</a></h3>
+                <h3><a id="aboutline">About Eric</a></h3>
 
                 <div>
                     <h6><i>With Passion For Real, Good Food</i></h6>
@@ -155,7 +177,7 @@
         <footer class="footer">
             <div class="content-wrapper footer-bottom mt-auto">
                 <div class="clearfix">
-                    <p><a name="footerline"> Copyright © Eric Moeller 2017. All right reserved. </a></p>
+                    <p><a id="footerline"> Copyright © Eric Moeller 2017. All right reserved. </a></p>
                     <div>
                         <ul class="social">
                             <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
@@ -169,7 +191,9 @@
         </footer>
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
         <script src="script.js"></script>
         
     </body>
