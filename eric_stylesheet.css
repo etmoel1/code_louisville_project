@@ -11,7 +11,7 @@ body {
 /*Header*/
 
 header {
-  background-color: #333;
+  background: linear-gradient(rgba(0,0,0,0.65) 85%, #f2f2f2);
 }
 
 .title {
@@ -20,7 +20,7 @@ header {
 }
 
 .title a {
-    color: #ffb366;
+    color: #FE6F00;
 }
 
 .title a:hover {
@@ -74,7 +74,7 @@ li.toggle:hover span.toggle-menu-bar {
 	display: block;
 	width: 25px;
 	height: 4px;
-	background-color: #f2f2f2;
+	background-color: #FE6F01;
 	border-radius: 3px;
 	margin: 0 auto 3px;
     transition: background-color 0.2s;
@@ -92,8 +92,22 @@ a:hover {
   color: #ddd;
 }
 
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+  background:  linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+  background-position: center;
+  padding-bottom: 500px;
+}
 
+#welcometext {
+  color: white;
+  font-weight: bold;
+   margin-top: 500px; 
+  font-size: 2.6em;
+}
 
 
 /* Photo Grid */
@@ -249,7 +263,8 @@ a:hover {
 
 .btn-primary,
 .btn-primary:hover {
-    background-color: #ffb366;
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
     color: black;
     font-weight: 200;
     font-weight: 600;
