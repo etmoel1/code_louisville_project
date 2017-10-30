@@ -20,7 +20,7 @@ header {
 }
 
 .title a {
-    color: #FE6F00;
+    color: #ffb366;
 }
 
 .title a:hover {
@@ -54,7 +54,7 @@ header {
 }
 
 .content a {
-    color: #ffb366;;
+    color: #ffb366;
 }
 
 .content a:hover {
@@ -66,15 +66,12 @@ header {
   cursor: pointer;
 }
 
-li.toggle:hover span.toggle-menu-bar {
-  background-color: #ddd;
-}
 
 .toggle-menu-bar {
 	display: block;
 	width: 25px;
 	height: 4px;
-	background-color: #FE6F01;
+	background-color: #ffb366;
 	border-radius: 3px;
 	margin: 0 auto 3px;
     transition: background-color 0.2s;
@@ -88,9 +85,6 @@ a {
   transition: color 0.2s;
 }
 
-a:hover {
-  color: #ddd;
-}
 
 #welcome {
   display: flex;
