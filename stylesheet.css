@@ -246,8 +246,8 @@ a {
    clear: both;
  }
 
-.copyright {
-    font-size: 
+#footerline {
+    font-size: 1.05em;
 }
 
 #background {
