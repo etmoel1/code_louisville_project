@@ -1,3 +1,4 @@
+//jquery for nav menu 
 
 $(document).ready(function($){
   $("li.content").hide();
@@ -44,7 +45,7 @@ $(function(){
 
 
 
-// Infinite loop
+// Infinite loop for pictures
 
  
 $(window).on("load",function() { //start after HTML, images have loaded
@@ -57,7 +58,7 @@ $(window).on("load",function() { //start after HTML, images have loaded
             var initialFadeIn = 1000;
  
             //interval between items (in milliseconds)
-            var itemInterval = 2000;
+            var itemInterval = 3200;
  
             //cross-fade time (in milliseconds)
             var fadeTime = 2000;
