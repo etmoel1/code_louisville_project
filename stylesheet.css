@@ -12,7 +12,27 @@ body {
 
 header {
   background: linear-gradient(rgba(0,0,0,0.65) 85%, #f2f2f2);
+
 }
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40em;
+    padding-top: 30px;
+	}
+    
+.toggle-menu {
+    display: flex;
+    padding-top: 15px;
+    float: right; 
+    }
+    
+    .headline {
+        padding-top: 10px;
+    }
+
 
 .title {
     font-family: "Rock Salt";
@@ -21,6 +41,7 @@ header {
 
 .title a {
     color: #ffb366;
+    margin-top: 60px;
 }
 
 .title a:hover {
@@ -42,9 +63,6 @@ header {
   padding-right: 20px;
 }
 
-.toggle-menu {
-  float: right; 
-}
 
 .toggle-menu li {
 	display: block;
@@ -284,7 +302,8 @@ a {
 
 /*Media queries*/
 
-@media (min-width: 200px) {
+
+@media (min-width: 440px) {
 
 	.main-header,
     .toggle-menu {
@@ -307,7 +326,7 @@ a {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 660px) {
 
 	.main-header {
 		flex-direction: row;
@@ -316,4 +335,7 @@ a {
 	}
 
   }
+
+
+
 
